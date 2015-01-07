@@ -1,1 +1,216 @@
-{"name":"Tallinn (North)","layouts":[{"component":true,"layout_name":"component","content_type":"component","title":"Mainmenu","file":"components/mainmenu.tpl"},{"component":true,"layout_name":"component","content_type":"component","title":"Search","file":"components/search.tpl"},{"component":true,"layout_name":"component","content_type":"component","title":"Langmenu","file":"components/langmenu.tpl"},{"component":true,"layout_name":"component","content_type":"component","title":"News","file":"components/news.tpl"},{"component":true,"layout_name":"component","content_type":"component","title":"Footer","file":"components/footer.tpl"},{"component":true,"layout_name":"","content_type":"component","title":"Submenu","file":"components/submenu.tpl"},{"component":true,"layout_name":"component","content_type":"component","title":"JS","file":"components/js.tpl"},{"component":true,"layout_name":"component","content_type":"component","title":"SiteHeader","file":"components/siteheader.tpl"},{"component":false,"layout_name":"page_front","content_type":"page","title":"Front page","file":"layouts/front_page.tpl"},{"component":false,"layout_name":"page_default","content_type":"page","title":"Common page","file":"layouts/common_page.tpl"},{"component":false,"layout_name":"blog","content_type":"blog","title":"Blog & News","file":"layouts/blog___news.tpl"},{"component":false,"layout_name":"","content_type":"blog_article","title":"Blog article","file":"layouts/blog_article.tpl"},{"component":true,"layout_name":"","content_type":"component","title":"MobileMenus","file":"components/mobilemenus.tpl"}],"author":"T\u00f5nu Runnel","assets":[{"kind":"images","content_type":"image/png","filename":"shadow.png","file":"images/shadow.png"},{"kind":"images","content_type":"image/gif","filename":"bullet.gif","file":"images/bullet.gif"},{"kind":"images","content_type":"image/gif","filename":"loop.gif","file":"images/loop.gif"},{"kind":"images","content_type":"image/png","filename":"shadow-bottom.png","file":"images/shadow-bottom.png"},{"kind":"stylesheets","content_type":"text/css","filename":"ie.css","file":"stylesheets/ie.css"},{"kind":"assets","content_type":"font/eot","filename":"museo700-regular-webfont-webfont.eot","file":"assets/museo700-regular-webfont-webfont.eot"},{"kind":"images","content_type":"image/png","filename":"bullet.png","file":"images/bullet.png"},{"kind":"images","content_type":"image/png","filename":"mainmenu-spike.png","file":"images/mainmenu-spike.png"},{"kind":"assets","content_type":"font/eot","filename":"museo300-regular-webfont-webfont.eot","file":"assets/museo300-regular-webfont-webfont.eot"},{"kind":"images","content_type":"image/jpeg","filename":"blueheader-bg.jpg","file":"images/blueheader-bg.jpg"},{"kind":"images","content_type":"image/gif","filename":"h3-line-dark.gif","file":"images/h3-line-dark.gif"},{"kind":"images","content_type":"image/gif","filename":"quote.gif","file":"images/quote.gif"},{"kind":"images","content_type":"image/gif","filename":"h3-line.gif","file":"images/h3-line.gif"},{"kind":"stylesheets","content_type":"text/css","filename":"museo.css","file":"stylesheets/museo.css"},{"kind":"assets","content_type":"font/eot","filename":"museo500-regular-webfont-webfont.eot","file":"assets/museo500-regular-webfont-webfont.eot"},{"kind":"stylesheets","content_type":"text/css","filename":"style.css","file":"stylesheets/style.css"},{"kind":"images","content_type":"image/gif","filename":"mainmenu-spike.gif","file":"images/mainmenu-spike.gif"},{"kind":"images","content_type":"image/png","filename":"loop.png","file":"images/loop.png"},{"kind":"stylesheets","content_type":"text/css","filename":"ie6.css","file":"stylesheets/ie6.css"}],"preview_medium":"http://static.edicy.com/designs/previews/tallinn-north_medium.jpg","preview_small":"http://static.edicy.com/designs/previews/tallinn-north_small.jpg","description":"Tallinn (North)"}
+{
+  "description": "Tallinn (North)",
+  "name": "Tallinn (North)",
+  "preview_medium": "http://static.edicy.com/designs/previews/tallinn-north_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/tallinn-north_small.jpg",
+  "author": "Tõnu Runnel",
+  "layouts": [
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/footer.tpl",
+      "layout_name": "footer",
+      "title": "footer"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mobilemenus.tpl",
+      "layout_name": "mobilemenus",
+      "title": "mobilemenus"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/news.tpl",
+      "layout_name": "news",
+      "title": "news"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/search.tpl",
+      "layout_name": "search",
+      "title": "search"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/museo300-regular-webfont-webfont.eot",
+      "kind": "assets",
+      "filename": "museo300-regular-webfont-webfont.eot"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/museo500-regular-webfont-webfont.eot",
+      "kind": "assets",
+      "filename": "museo500-regular-webfont-webfont.eot"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/museo700-regular-webfont-webfont.eot",
+      "kind": "assets",
+      "filename": "museo700-regular-webfont-webfont.eot"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/blueheader-bg.jpg",
+      "kind": "images",
+      "filename": "blueheader-bg.jpg"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/bullet.gif",
+      "kind": "images",
+      "filename": "bullet.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/bullet.png",
+      "kind": "images",
+      "filename": "bullet.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/h3-line-dark.gif",
+      "kind": "images",
+      "filename": "h3-line-dark.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/h3-line.gif",
+      "kind": "images",
+      "filename": "h3-line.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/loop.gif",
+      "kind": "images",
+      "filename": "loop.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/loop.png",
+      "kind": "images",
+      "filename": "loop.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu-spike.gif",
+      "kind": "images",
+      "filename": "mainmenu-spike.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/mainmenu-spike.png",
+      "kind": "images",
+      "filename": "mainmenu-spike.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/quote.gif",
+      "kind": "images",
+      "filename": "quote.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/shadow-bottom.png",
+      "kind": "images",
+      "filename": "shadow-bottom.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/shadow.png",
+      "kind": "images",
+      "filename": "shadow.png"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/ie.css",
+      "kind": "stylesheets",
+      "filename": "ie.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/ie6.css",
+      "kind": "stylesheets",
+      "filename": "ie6.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/museo.css",
+      "kind": "stylesheets",
+      "filename": "museo.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
+}
