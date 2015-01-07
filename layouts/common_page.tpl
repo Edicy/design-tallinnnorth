@@ -6,7 +6,7 @@
 {% include "SiteHeader" %}
 </head>
 
-<body>
+<body{% if editmode %} class="editmode"{% endif %}>
 
 <div id="wrap">
 <div id="header-wrap">
@@ -22,7 +22,7 @@
    <h2 class="clearfix">{% content name="slogan" %}</h2>
   </div>
 	</div>
-     {% include "MobileMenus" %} 
+     {% include "MobileMenus" %}
 	<div id="body" class="clearfix wrapper">
   <div class="content-block left clearfix">
    {% content %}

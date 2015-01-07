@@ -7,7 +7,7 @@
 {{blog.rss_link}}
 </head>
 
-<body id="blog">
+<body id="blog"{% if editmode %} class="editmode"{% endif %}>
 
 <div id="wrap">
 <div id="header-wrap">
@@ -26,14 +26,14 @@
    </div>
   </div>
 </div>
-     {% include "MobileMenus" %} 
+     {% include "MobileMenus" %}
 <div id="body" class="clearfix wrapper">
   <div class="content-block left clearfix">
    <div class="excerpt clearfix">
     {% editable article.excerpt %}
    </div>
    {% editable article.body %}
-   
+
    <a name="comments"></a>
    <div class="comments">
      <h3>{% case article.comments_count %}{% when 0 %}{{"no_comments"|lc}}{% else %}{{"comments_for_count"|lc}}: <span class="edy-site-blog-comments-count">{{article.comments_count}}</span>{% endcase %}</h3>
@@ -59,13 +59,13 @@
     </ul>{% endunless %}
      <p><label for="commentform-name">{{"name"|lc}}</label>
        <input type="text" class="textbox bold" id="commentform-name" value="{{comment.author}}" name="comment[author]" /></p>
-     
+
      <p><label for="commentform-email">{{"email"|lc}}</label>
        <input type="text" class="textbox" id="commentform-email" value="{{comment.author_email}}" name="comment[author_email]" /></p>
-     
+
      <p><label for="commentform-body">{{"comment"|lc}}</label>
        <textarea class="textbox" rows="4" cols="62" name="comment[body]">{{comment.body}}</textarea></p>
-     
+
      <p><input type="submit" class="submit" value="{{"submit"|lc}}" /></p>
     {% endcommentform %}
    </div>
