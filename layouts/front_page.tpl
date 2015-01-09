@@ -21,7 +21,7 @@
    <h1 id="logo" class="clearfix">{% editable site.header %}</h1>
    <h2 class="clearfix">{% content name="slogan" %}</h2>
    <div class="clearfix front-content">
-    <div class="content-block left clearfix">
+    <div class="content-block left clearfix" data-search-indexing-allowed="true">
      {% content %}
     </div>
     <div class="sidebar right">

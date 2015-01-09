@@ -24,7 +24,7 @@
 	</div>
      {% include "MobileMenus" %}
 	<div id="body" class="clearfix wrapper">
-  <div class="content-block left clearfix">
+  <div class="content-block left clearfix" data-search-indexing-allowed="true">
    {% content %}
   </div>
   <div class="sidebar right">

@@ -41,7 +41,7 @@
   </div>
   <div class="sidebar right clearfix">
    {% include "Submenu" %}
-   {% content name="sidebar" %}
+   <div data-search-indexing-allowed="true">{% content name="sidebar" %}</div>
   </div>
 </div>
 {% include "Footer" %}
