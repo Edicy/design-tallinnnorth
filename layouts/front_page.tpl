@@ -18,13 +18,13 @@
 </div>
 	<div id="greenheader">
   <div class="clearfix wrapper">
-   <h1 id="logo" class="clearfix">{% editable site.header %}</h1>
-   <h2 class="clearfix">{% content name="slogan" %}</h2>
+   <h1 id="logo" class="clearfix content-hyphenate">{% editable site.header %}</h1>
+   <h2 class="clearfix content-hyphenate">{% content name="slogan" %}</h2>
    <div class="clearfix front-content">
-    <div class="content-block left clearfix" data-search-indexing-allowed="true">
+    <div class="content-block left clearfix content-hyphenate" data-search-indexing-allowed="true">
      {% content %}
     </div>
-    <div class="sidebar right">
+    <div class="sidebar right content-hyphenate">
      {% include "News" %}
     </div>
    </div>
