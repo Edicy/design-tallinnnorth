@@ -79,6 +79,14 @@ margin: 0 0 20px;
   hyphens: auto;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 form {
 margin: 0;
 }
@@ -695,3 +703,9 @@ body .add-article {
 }
 textarea, input {outline:none;}
 html {  -webkit-text-size-adjust: none;	}
+
+#blog .edy-btn-removecomment {
+  position: relative;
+  top: 2px;
+  line-height: 0 !important;
+}
